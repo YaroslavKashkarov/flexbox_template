@@ -4,15 +4,19 @@
 .widget {
   margin: 0 0 $gap-sm;
   padding: $gap-sm;
+
   color: $color-light;
   border-radius: 7px;
   background: rgba($color-dark, 0.5);
 
   h3 {
     margin-top: 5px;
-    padding: 10px;
+    padding-bottom: 10px;
+
     letter-spacing: 1.5px;
+
     border-bottom: 1px solid $color-border;
+
     font-family: $font-header;
     font-weight: 300;
   }

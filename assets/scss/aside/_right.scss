@@ -1,12 +1,13 @@
-@use '../widgets/widgets' as *;
+@use '../widgets' as *;
 @use '../mixins' as *;
 @use '../presets' as *;
 
-.rigth {
+.right {
   order: 3;
 
   @include lg-min {
     flex: 0 0 $right-sidebar-width;
+
     margin-bottom: $gap-sm;
   }
   @include lg-md {

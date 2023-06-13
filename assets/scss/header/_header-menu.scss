@@ -5,21 +5,24 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+
   background-color: rgba($color-dark, 0.3);
 
   &__list {
     margin: 0;
     padding: 0;
+
     list-style: none;
 
     @include sm-min {
       display: flex;
     }
-
     @include sm {
       display: none;
       justify-content: center;
+
       width: 100%;
+
       text-align: center;
     }
 
@@ -37,8 +40,10 @@
 
       a {
         display: block;
+
         margin: 5px;
         padding: 10px $gap-sm;
+
         border-radius: 4px;
 
         @include sm {
@@ -67,36 +72,43 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+
   width: 50px;
   height: 50px;
+
   cursor: pointer;
+
   background-color: rgba($color-dark, 0.2);
 
   @include sm-min {
     display: none;
   }
-
   @include sm {
     display: flex;
   }
 
   &-row {
     position: relative;
+
     width: 60%;
     height: 2px;
     margin: 2px 0;
+
     transition: 0.5s;
+
     background-color: $color-light;
   }
 
   &.active .header-menu__btn-row {
     &:first-child {
       top: 6px;
+
       transform: rotate(-135deg);
     }
 
     &:last-child {
       top: -6px;
+
       transform: rotate(-225deg);
     }
 

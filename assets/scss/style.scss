@@ -1,9 +1,9 @@
 @use '../../libs/normalize.css/normalize.css';
 
-@use 'widgets';
 @use 'aside';
+@use 'common';
 @use 'header';
 @use 'main';
-@use 'presets';
 @use 'mixins';
-@use 'common';
+@use 'presets';
+@use 'widgets';

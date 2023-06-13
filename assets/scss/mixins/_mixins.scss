@@ -1,4 +1,4 @@
-@use '../presets' as *;
+@use "../presets" as *;
 
 @mixin text-shortener {
   display: block;
@@ -28,13 +28,13 @@
 @mixin block-with-text {
   display: -webkit-box;
   overflow: hidden;
+  -webkit-box-orient: vertical;
 
   max-height: 75px;
 
   font-size: 13px;
   line-height: 19px;
 
-  -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
 }
 

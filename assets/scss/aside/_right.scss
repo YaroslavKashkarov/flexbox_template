@@ -1,0 +1,22 @@
+@use '../widgets/widgets' as *;
+@use '../mixins' as *;
+@use '../presets' as *;
+
+.rigth {
+  order: 3;
+
+  @include lg-min {
+    flex: 0 0 $right-sidebar-width;
+    margin-bottom: $gap-sm;
+  }
+  @include lg-md {
+    width: 100%;
+  }
+  @include md-xs {
+    width: 50%;
+    padding-left: 7.5px;
+  }
+  @include xs {
+    width: 100%;
+  }
+}

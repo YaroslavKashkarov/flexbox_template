@@ -1,5 +1,5 @@
-@use '../presets/' as *;
-@use '../mixins/' as *;
+@use "../presets" as *;
+@use "../mixins" as *;
 
 .widget {
   margin: 0 0 $gap-sm;
